@@ -1,4 +1,4 @@
-package in.codingstreams.etuserauthservice.service.model;
+package in.codingstreams.etuserauthservice.controller.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -9,6 +9,6 @@ import lombok.NoArgsConstructor;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-public class AuthResponse {
+public class AuthResponseDto {
     private String accessToken;
 }
